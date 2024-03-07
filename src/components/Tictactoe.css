@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(tic.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  color:#fff;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  justify-content: space-around;
+}
+.board{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px -3px rgba(0,0 ,0 ,0.1);
+}
+.box{
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 130px;
+  color: #fff;
+}
+.box1,.box2,.box4,.box5{
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.box3,.box6{
+  border-bottom: 2px solid white;
+}
+.box7,.box8{
+  border-right: 2px solid white;
+}
+.player{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.15) ;
+  border-radius: 1rem;
+  border: rgba(255, 255, 255, 0.15);
+  padding: 0.5rem 2rem;
+  box-shadow: 0 10px 25px -3px rgba(0,0 ,0 ,0.1);
+
+}
+.win{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.15) ;
+  border-radius: 1rem;
+  border: rgba(255, 255, 255, 0.15);
+  padding: 0.5rem 2rem;
+  box-shadow: 0 10px 25px -3px rgba(0,0 ,0 ,0.1);
+}
+.tie{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0.15) ;
+  border-radius: 1rem;
+  border: rgba(255, 255, 255, 0.15);
+  padding: 0.5rem 2rem;
+  box-shadow: 0 10px 25px -3px rgba(0,0 ,0 ,0.1);
+  
+}
+.btn{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 80px;
+  background-color: rgba(255, 255, 255, 0.15) ;
+  border-radius: 1rem;
+  border: rgba(255, 255, 255, 0.15);
+  padding: 0.5rem 2rem;
+  box-shadow: 0 10px 25px -3px rgba(0,0 ,0 ,0.1);
+}
